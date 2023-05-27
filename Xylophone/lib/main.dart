@@ -15,9 +15,9 @@ class XylophoneApp extends StatelessWidget {
         style: ButtonStyle(
             backgroundColor: color
         ),
-        onPressed: () async {
+        onPressed: () {
           final player = AudioPlayer();
-          await player.play('note$sound.wav');
+          player.play('note$sound.wav');
         }, child: const Text(""),
       ),
     );
