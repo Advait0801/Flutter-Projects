@@ -10,6 +10,7 @@ void main() async {
   await Firebase.initializeApp();
   runApp(const FlashChat());
 }
+
 class FlashChat extends StatelessWidget {
   const FlashChat({Key? key}) : super(key: key);
   @override
